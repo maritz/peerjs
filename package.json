@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git://github.com/peers/peerjs.git"
   },
+  "browserify" : "./lib/peer.js",
   "author": "Michelle Bu, Eric Zhang",
   "license": "MIT",
   "devDependencies": {
