@@ -6,12 +6,15 @@
     "type": "git",
     "url": "git://github.com/peers/peerjs.git"
   },
-  "browserify" : "./lib/peer.js",
+  "browserify": "./lib/peer.js",
   "author": "Michelle Bu, Eric Zhang",
   "license": "MIT",
   "devDependencies": {
     "uglify-js": "~1.3.4",
     "mocha": "*",
     "expect.js": "*"
+  },
+  "dependencies": {
+    "eventemitter3": "0.1.2"
   }
 }
